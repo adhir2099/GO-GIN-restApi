@@ -3,7 +3,7 @@
 <h1 align="center"> 👋 GO-GIN REST API</h1>
 
 # GO-GIN REST API
-Rest APi using Go's Gin! and gorilla mux
+Rest API using Go's Gin! and gorilla mux
 
 ## Backend
 <p align="left">
@@ -32,14 +32,19 @@ Rest APi using Go's Gin! and gorilla mux
 </details>
 <details>
   <summary>DB connection</summary>
-  <p>```go
+  <p>
+
+  ```go
       dsn := "user:@password/database?charset=utf8mb4&parseTime=True&loc=Local"
-  ```</p>
+  ```
+
+  </p>
   <p>If you're not using any password just leave it this way:@/database</p>
 </details>
 <details>
   <summary>Testing insomnia/postman/thunder client</summary>
   <p>localhost:8080/api/v1/users</p>
+  <p>GET(getById)/PUT/DELETE : localhost:8080/api/v1/users/:id</p>
 </details>
 
 ## Contributing
@@ -54,4 +59,4 @@ Rest APi using Go's Gin! and gorilla mux
 <p align="left">
 <a href="https://www.linkedin.com/in/adhir-serrano/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adhir2099" height="30" width="40" /></a>
 </p>
-<p align="right" > Created with 🧡 by <a href="https://github.com/adhir2099">Adhir2099</a></p>
+<p align="right" > Created with ❤️ by <a href="https://github.com/adhir2099">Adhir2099</a></p>
